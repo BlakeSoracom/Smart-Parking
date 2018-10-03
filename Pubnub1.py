@@ -9,8 +9,8 @@ import json
 GPIO.setmode(GPIO.BCM)
 
 # set GPIO Pins
-TRIG = 23
-ECHO = 24
+TRIG = 3
+ECHO = 5
 
 occupied = False
 
